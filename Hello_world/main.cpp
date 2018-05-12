@@ -4,6 +4,7 @@ const int i =5;
 const constexpr int *j = &i;
 
 int main() {
+    vector<int> v = {1,2,3};
     std::cout << "Hello, World!" << std::endl;
     std::cout.setf(std::ios::fixed);
     std::cout.setf(std::ios::showpoint);
@@ -14,6 +15,8 @@ int main() {
     std::cout <<i<< std::endl;
 
     std::cout << *j << std::endl;
+    
+    std::cout << v[1] << std::endl;
 
     
     return 0;
